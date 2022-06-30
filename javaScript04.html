@@ -1,0 +1,32 @@
+<html>
+	<body>
+		
+		<h1>variables en javascript</h1>
+	
+		<p id="demo"> ciclos y condicionales</p>
+		<script>
+		
+		if (new Date().getHours()<18)
+		{
+			document.getElementById("demo").innerHTML ="Buenos dias");	
+		}
+		</script>
+
+
+		<p id="demo2">
+		</p>	
+
+		<script>
+			var cars =["bmw", "volvo","jeep"]	;
+			var text ="";
+			var i;
+
+			for(i=0;i<=cars.length;i++)
+			{
+				text =text+cars[i]+ "<br>";	
+			}
+			document.getElementById("demo2").innerHTML=text;
+		</script>
+	</body>
+
+</html>
